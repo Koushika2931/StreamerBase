@@ -25,7 +25,7 @@
 #ifndef __MAINWINDOW_H_7DB41986__
 #define __MAINWINDOW_H_7DB41986__
 
-class ContentComponent;
+class ContentComponent1;
 
 //==============================================================================
 class MainAppWindow   : public DocumentWindow,
@@ -95,7 +95,7 @@ public:
 private:
     static void runtimePermissionsCallback (bool wasGranted);
 
-    ScopedPointer<ContentComponent> contentComponent;
+    ScopedPointer<ContentComponent1> contentComponent;
     ScopedPointer<Component> taskbarIcon;
     ScopedPointer<BubbleMessageComponent> currentBubbleMessage;
 

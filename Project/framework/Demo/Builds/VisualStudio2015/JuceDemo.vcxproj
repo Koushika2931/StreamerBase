@@ -82,6 +82,8 @@
       <TargetMachine>MachineX86</TargetMachine>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalLibraryDirectories>..\..\..\..\SeaStarVCam\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SeaStarVCamClient.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -124,6 +126,8 @@
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalLibraryDirectories>..\..\..\..\SeaStarVCam\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SeaStarVCamClient.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -134,48 +138,12 @@
     <ClCompile Include="..\..\Source\BaseFramework\BaseElement.cpp" />
     <ClCompile Include="..\..\Source\BaseFramework\DisplaySink.cpp" />
     <ClCompile Include="..\..\Source\BaseFramework\ElementFactory.cpp" />
+    <ClCompile Include="..\..\Source\BaseFramework\Resizer.cpp" />
+    <ClCompile Include="..\..\Source\BaseFramework\VirtualCamSink.cpp" />
     <ClCompile Include="..\..\Source\BaseFramework\WebCamSource.cpp" />
     <ClCompile Include="..\..\Source\Main.cpp" />
     <ClCompile Include="..\..\Source\MainWindow.cpp" />
     <ClCompile Include="..\..\Source\IntroScreen.cpp" />
-    <ClCompile Include="..\..\Source\Demos\AnimationDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\AudioLatencyDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\AudioPlaybackDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\AudioRecordingDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\AudioSettingsDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\AudioSynthesiserDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\Box2DDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\CameraDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\ChildProcessDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\CodeEditorDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\ComponentTransformsDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\CryptographyDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\DialogsDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\FlexBoxDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\FontsDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\GraphicsDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\ImagesDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\JavaScript.cpp" />
-    <ClCompile Include="..\..\Source\Demos\KeyMappingsDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\LiveConstantDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\LookAndFeelDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\MDIDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\MidiDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\MultithreadingDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\MultiTouch.cpp" />
-    <ClCompile Include="..\..\Source\Demos\NetworkingDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\OpenGLDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\OpenGLDemo2D.cpp" />
-    <ClCompile Include="..\..\Source\Demos\PropertiesDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\SystemInfoDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\TimersAndEventsDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\UnitTestsDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\ValueTreesDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\VideoDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\WebBrowserDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\WidgetsDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\WindowsDemo.cpp" />
-    <ClCompile Include="..\..\Source\Demos\XMLandJSONDemo.cpp" />
     <ClCompile Include="..\..\..\..\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
@@ -1904,12 +1872,12 @@
     <ClInclude Include="..\..\Source\BaseFramework\BaseElement.h" />
     <ClInclude Include="..\..\Source\BaseFramework\DisplaySink.h" />
     <ClInclude Include="..\..\Source\BaseFramework\ElementFactory.h" />
+    <ClInclude Include="..\..\Source\BaseFramework\Resizer.h" />
+    <ClInclude Include="..\..\Source\BaseFramework\VirtualCamSink.h" />
     <ClInclude Include="..\..\Source\BaseFramework\WebCamSource.h" />
     <ClInclude Include="..\..\Source\MainWindow.h" />
     <ClInclude Include="..\..\Source\DemoUtilities.h" />
     <ClInclude Include="..\..\Source\JuceDemoHeader.h" />
-    <ClInclude Include="..\..\Source\Demos\AudioLiveScrollingDisplay.h" />
-    <ClInclude Include="..\..\Source\Demos\WavefrontObjParser.h" />
     <ClInclude Include="..\..\..\..\modules\juce_audio_basics\buffers\juce_AudioChannelSet.h" />
     <ClInclude Include="..\..\..\..\modules\juce_audio_basics\buffers\juce_AudioDataConverters.h" />
     <ClInclude Include="..\..\..\..\modules\juce_audio_basics\buffers\juce_AudioSampleBuffer.h" />

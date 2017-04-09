@@ -3,7 +3,7 @@
 
 void WebCamSource::imageReceived(const Image &image)
 {
-	Image newImage = image.convertedToFormat(Image::PixelFormat::ARGB);
+	Image newImage = image.convertedToFormat(Image::PixelFormat::RGB);
 	size_t imageSize = newImage.getHeight() * newImage.getHeight() * 4;
 
 	std::shared_ptr<BlockData> sharedData = std::make_shared<BlockData>(m_elementId, imageSize);
