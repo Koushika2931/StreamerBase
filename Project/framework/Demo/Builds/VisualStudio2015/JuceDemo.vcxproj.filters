@@ -7,9 +7,6 @@
     <Filter Include="JuceDemo\Source">
       <UniqueIdentifier>{321CEB4F-D9F3-CA5E-D47A-006E0C218781}</UniqueIdentifier>
     </Filter>
-    <Filter Include="JuceDemo\Source\Demos">
-      <UniqueIdentifier>{AAAA6351-2E10-4704-1B68-B9B514A75764}</UniqueIdentifier>
-    </Filter>
     <Filter Include="JuceDemo\Source\Resources">
       <UniqueIdentifier>{4780C7BB-5928-04EF-9CB1-95D9D77E9FA5}</UniqueIdentifier>
     </Filter>
@@ -413,120 +410,6 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\IntroScreen.cpp">
       <Filter>JuceDemo\Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\AnimationDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\AudioLatencyDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\AudioPlaybackDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\AudioRecordingDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\AudioSettingsDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\AudioSynthesiserDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\Box2DDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\CameraDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\ChildProcessDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\CodeEditorDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\ComponentTransformsDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\CryptographyDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\DialogsDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\FlexBoxDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\FontsDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\GraphicsDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\ImagesDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\JavaScript.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\KeyMappingsDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\LiveConstantDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\LookAndFeelDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\MDIDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\MidiDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\MultithreadingDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\MultiTouch.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\NetworkingDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\OpenGLDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\OpenGLDemo2D.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\PropertiesDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\SystemInfoDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\TimersAndEventsDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\UnitTestsDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\ValueTreesDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\VideoDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\WebBrowserDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\WidgetsDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\WindowsDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Demos\XMLandJSONDemo.cpp">
-      <Filter>JuceDemo\Source\Demos</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp">
       <Filter>Juce Modules\juce_audio_basics\buffers</Filter>
@@ -2295,6 +2178,12 @@
     <ClCompile Include="..\..\Source\BaseFramework\WebCamSource.cpp">
       <Filter>BaseFramework</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\BaseFramework\VirtualCamSink.cpp">
+      <Filter>BaseFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BaseFramework\Resizer.cpp">
+      <Filter>BaseFramework</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\MainWindow.h">
@@ -2305,12 +2194,6 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\JuceDemoHeader.h">
       <Filter>JuceDemo\Source</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Demos\AudioLiveScrollingDisplay.h">
-      <Filter>JuceDemo\Source\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Demos\WavefrontObjParser.h">
-      <Filter>JuceDemo\Source\Demos</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\modules\juce_audio_basics\buffers\juce_AudioChannelSet.h">
       <Filter>Juce Modules\juce_audio_basics\buffers</Filter>
@@ -4323,6 +4206,42 @@
       <Filter>BaseFramework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\BaseFramework\WebCamSource.h">
+      <Filter>BaseFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\modules\juce_audio_basics\juce_audio_basics.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_audio_devices\juce_audio_devices.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_audio_formats\juce_audio_formats.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_audio_processors\juce_audio_processors.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_audio_utils\juce_audio_utils.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_box2d\juce_box2d.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_core\juce_core.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_cryptography\juce_cryptography.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_data_structures\juce_data_structures.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_events\juce_events.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_graphics\juce_graphics.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_gui_basics\juce_gui_basics.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_gui_extra\juce_gui_extra.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_opengl\juce_opengl.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_video\juce_video.h" />
+    <ClInclude Include="..\..\Source\BaseFramework\VirtualCamSink.h">
+      <Filter>BaseFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\modules\juce_audio_basics\juce_audio_basics.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_audio_devices\juce_audio_devices.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_audio_formats\juce_audio_formats.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_audio_processors\juce_audio_processors.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_audio_utils\juce_audio_utils.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_box2d\juce_box2d.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_core\juce_core.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_cryptography\juce_cryptography.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_data_structures\juce_data_structures.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_events\juce_events.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_graphics\juce_graphics.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_gui_basics\juce_gui_basics.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_gui_extra\juce_gui_extra.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_opengl\juce_opengl.h" />
+    <ClInclude Include="..\..\..\..\modules\juce_video\juce_video.h" />
+    <ClInclude Include="..\..\Source\BaseFramework\Resizer.h">
       <Filter>BaseFramework</Filter>
     </ClInclude>
   </ItemGroup>

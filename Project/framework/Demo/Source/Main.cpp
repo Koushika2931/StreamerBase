@@ -25,8 +25,6 @@
 #include "JuceDemoHeader.h"
 #include "MainWindow.h"
 
-bool invokeChildProcessDemo (const String& commandLine);
-
 //==============================================================================
 class JuceDemoApplication  : public JUCEApplication
 {
@@ -36,8 +34,7 @@ public:
     //==============================================================================
     void initialise (const String& commandLine) override
     {
-        if (invokeChildProcessDemo (commandLine))
-            return;
+       
 
         Desktop::getInstance().setOrientationsEnabled (Desktop::allOrientations);
 
